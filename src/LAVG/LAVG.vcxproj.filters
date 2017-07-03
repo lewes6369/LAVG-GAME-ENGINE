@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{af2f430e-be6c-4c3c-bea7-ea2fb927b5fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lua">
+      <UniqueIdentifier>{65647230-5580-4c0e-b7fb-68c700a6b903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Setting">
+      <UniqueIdentifier>{ae202452-72e1-4ed3-ab52-6b2966ccadcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manger">
+      <UniqueIdentifier>{bacec2d7-87bf-412f-a980-0f2816075350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lua\LuaValue">
+      <UniqueIdentifier>{87665c86-2db2-4425-aff4-e899e027d2c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lua\LuaRegister">
+      <UniqueIdentifier>{ca472e90-15c4-4f2f-a72a-61d089d149d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImageReader.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaLoader.cpp">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageRender.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaFuncRegister.cpp">
+      <Filter>Source Files\Lua\LuaRegister</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaTableValue.cpp">
+      <Filter>Source Files\Lua\LuaValue</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManger.cpp">
+      <Filter>Source Files\Manger</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalUtility.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemSetting.cpp">
+      <Filter>Source Files\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerList.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\Manger</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImageReader.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaLoader.h">
+      <Filter>Source Files\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageRender.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaFuncRegister.h">
+      <Filter>Source Files\Lua\LuaRegister</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaBaseValue.h">
+      <Filter>Source Files\Lua\LuaValue</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaBoolValue.h">
+      <Filter>Source Files\Lua\LuaValue</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaDoubleValue.h">
+      <Filter>Source Files\Lua\LuaValue</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaIntValue.h">
+      <Filter>Source Files\Lua\LuaValue</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaNilValue.h">
+      <Filter>Source Files\Lua\LuaValue</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaStringValue.h">
+      <Filter>Source Files\Lua\LuaValue</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaTableValue.h">
+      <Filter>Source Files\Lua\LuaValue</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Source Files\Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalUtility.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemSetting.h">
+      <Filter>Source Files\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerList.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Source Files\Manger</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
