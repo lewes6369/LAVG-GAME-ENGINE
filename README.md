@@ -1,12 +1,12 @@
 # LAVG-GAME-ENGINE
 A LIGHTWEIGHT AVG GAME ENGINE MADE BY LUA
 
-LAVG GAME ENGINE是一个为AVG游戏进行定制的轻量级,易扩展的框架，
-该框架由 OpenGL + OpenCV 实现底层逻辑 
-业务逻辑则由 Lua 进行实现
+LAVG GAME ENGINE是一个为AVG游戏进行定制的轻量级,易扩展的框架，  
+该框架由 OpenGL + OpenCV 实现底层逻辑  
+业务逻辑则由 Lua 进行实现  
 
-以下功能尚未完成，将渐渐不定期更新剩余功能：
-1.多种图片场景切换效果
+以下功能尚未完成，将渐渐不定期更新剩余功能：  
+1.多种图片场景切换效果  
 2.音乐语音功能
 3.存储读取菜单功能
 4.文件打包
